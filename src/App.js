@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 function App() {
-  const [result, setRresult] = useState("0");
+  const [result, setRresult] = useState('');
 
   const handlClickBtn = (e) => {
     setRresult(result.concat(e.target.name))
