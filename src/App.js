@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 function App() {
-  const [result, setRresult] = useState('');
+  const [result, setRresult] = useState("0");
 
   const handlClickBtn = (e) => {
     setRresult(result.concat(e.target.name))
@@ -53,8 +53,8 @@ function App() {
           </div>
         </div>
       </div>
-      <footer className="text-center bg-black p-3 text-white">
-        Creted by ❤️ And ☕ All Right Riserved &copy; <a href="https://ayoubguidi.com">Ayoub™</a>
+      <footer className="text-center bg-blue-900 p-3 text-white">
+        Created by ❤️ And ☕ All Right Riserved &copy; <a href="https://ayoubguidi.com">Ayoub™</a>
       </footer>
     </>
   );

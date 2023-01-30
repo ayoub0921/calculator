@@ -13,16 +13,16 @@ body{
 
 
 input{
-  @apply bg-black text-white p-4 w-full text-right tracking-widest text-xl font-semibold
+  @apply bg-blue-900 rounded-t-md shadow-md text-white p-4 w-full text-right tracking-widest text-xl font-semibold
 }
 
 .buttons{
-  @apply bg-black grid grid-cols-4 gap-4 p-4 text-white
+  @apply bg-blue-900 grid grid-cols-4 gap-4 p-4 text-white rounded-b-md shadow-md
 }
 
 .buttons button{
 
-  @apply border p-2 font-semibold text-base rounded-md
+  @apply border p-2 font-semibold text-base rounded-md border-violet-600
 
 }
 
